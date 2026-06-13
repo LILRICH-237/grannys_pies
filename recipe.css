@@ -1,0 +1,55 @@
+/* General page styling */
+body {
+    background-color: white;
+    color: #404040;
+    font-family: Georgia, Garamond, serif;
+    font-size: 11pt;
+
+    /* Extra Feature: background image */
+    background-image: url("silverware.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* Headings */
+h1, h2 {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+
+    /* Extra Feature: wide spacing */
+    letter-spacing: 0.25em;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+/* Other headings */
+h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+/* Links */
+a {
+    color: #A4A400;
+}
+
+/* Blockquote */
+blockquote {
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+/* Preformatted copyright */
+pre {
+    font-family: monospace;
+}
